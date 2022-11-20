@@ -511,7 +511,7 @@ class Zombie:
 
 class ZombieSpawner:
     def __init__(self):
-        self.zombie_cooldown = 0.5 # time between each zombie spawn
+        self.zombie_cooldown = 1.5 # time between each zombie spawn
         self.zombie_timer = Timer(self.zombie_cooldown)
 
         self.zombie_health_addon = 0 # increases zombie health by this amount every time a new wave spawns
